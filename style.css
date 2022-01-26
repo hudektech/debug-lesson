@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 0px 10px 10px 10px;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    cursor: pointer;
+}
+
+h1,h2,h3,h4{
+    margin-top: 0;
+    text-align: center;
+}
+
+h4 {
+    margin: 5px;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-shadow: 1px 1px 0.5px grey;
+    cursor: pointer;
+    margin: 5px;
+    width: 60px;
+}
+
+.reset {
+    background-color: wheat;
+    color: black;
+}
+.danger {
+    background-color: crimson;
+    color: white;
+}
+
+.warning {
+    background-color: yellow;
+    color: black;
+}
+
+.primary {
+    background-color: navy;
+    color: white;
+}
+
+.success {
+    background-color: forestgreen;
+    color: white;
+}
+.btn-group-1 {
+    background-color: aqua;
+    border-radius: 10px;
+    border: 10px solid black;
+
+}
+.btn-group-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.btn-group-pic {
+    background: url('https://images.pexels.com/photos/10213636/pexels-photo-10213636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+    /* background-size: cover;
+    background-position: center; */
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: wheat;
+}
+
+
+
+
+
